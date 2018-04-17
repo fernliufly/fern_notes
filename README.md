@@ -14,3 +14,12 @@ cd .ssh
 ssh-keygen -t rsa   //以rsa的加密方式生成秘钥对  
 在.ssh目录里创建一个authorized_keys文件，用于存放用户的公钥
 touch authorized_keys 
+
+1 git init
+2 git remote add origin git@github.com:fernliufly/Udacity.git
+3 git push -u project3_R
+4 git push -u origin master
+5 git add project3_R/
+6 git commit -m "project3 code"
+7 git remote show origin
+8 git push origin master
